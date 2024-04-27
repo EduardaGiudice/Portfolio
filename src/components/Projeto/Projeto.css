@@ -66,8 +66,8 @@
   .projeto_container{
     grid-template-columns: max-content;
   }
+  
 }
-
 /*Dispositivos Pequenos*/
 @media screen and (max-width: 576px) {
  
@@ -78,5 +78,9 @@
     .projeto_img{
         width: 100%;
     }
+    
+    .projeto_subtitle{
+    padding: 0 1rem;
+}
 }
 
