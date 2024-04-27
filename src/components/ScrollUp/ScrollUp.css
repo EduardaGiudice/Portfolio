@@ -1,0 +1,37 @@
+.scrollup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #DE7884;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: opacity 0.4s;
+}
+
+.scrollup i {
+  font-size: 35px;
+  text-align: center;
+}
+
+.scrollup:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .scrollup {
+    bottom: 70px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .scrollup i {
+    font-size: 30px;
+  }
+}
