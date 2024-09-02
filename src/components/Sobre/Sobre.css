@@ -1,6 +1,5 @@
 .about_container{
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
     column-gap: 4rem;
 }
 
@@ -8,6 +7,8 @@
     width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
+    justify-content: center;
+    margin-top: 30px;
 }
 
 .about_title{
@@ -15,7 +16,6 @@
 }
 
 .about_description{
-    padding: 2rem 0 0 0;
     margin-bottom: var(--mb-2-5);
      text-align: center;
 }
@@ -31,6 +31,7 @@
 
  .about_img{
     width: 220px;
+    margin-top: 0px;
  }
 
  .about_data{

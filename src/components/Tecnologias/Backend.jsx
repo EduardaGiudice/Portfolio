@@ -1,20 +1,14 @@
 import React from "react";
-import { BsFiletypeHtml, BsFiletypeCss } from "react-icons/bs";
-import { FaBootstrap, FaGithub } from "react-icons/fa6";
 import {
   SiMongodb,
-  SiJavascript,
   SiTypescript,
-  SiFigma,
   SiExpress,
   SiMysql,
   SiDocker,
-  SiExpo,
 } from "react-icons/si";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { DiScrum } from "react-icons/di";
-import { RiVuejsFill } from "react-icons/ri";
 
 const Backend = () => {
   return (
