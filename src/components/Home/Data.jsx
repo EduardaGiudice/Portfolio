@@ -57,7 +57,7 @@ const Data = () => {
       </h1>
       <h3 className="home_subtitle">Desenvolvedora Front-End</h3>
       <p className="home_description">
-        Estudante de Análise e Desenvolvimento de Sistemas
+        Graduada em Análise e Desenvolvimento de Sistemas
       </p>
       <a href="#contato" className="button button_flex">
         Diga Olá
